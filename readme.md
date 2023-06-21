@@ -14,7 +14,7 @@ sh publish.sh
 ```
 
 ```
-source libreoffice-gzip.env
+source libreoffice-gz.env
 sh publish.sh
 ```
 
@@ -50,6 +50,8 @@ If you don't use [aws-lambda-libreoffice npm package](https://github.com/shelfio
 
 ### LibreOffice v6.4.0.1 (Amazon Linux 2)
 
+*THESE ARNs ARE ONLY FOR USE WITH KENJA SERVICES*
+
 Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
 
 - nodejs16.x
@@ -61,44 +63,8 @@ Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambd
 
 | AWS Region     | Layer ARN (brotli)                                                                                                                                    |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:us-east-1:764866452798:layer:libreoffice-gzip:1`           |
-| eu-west-1      | `arn:aws:lambda:eu-west-1:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:eu-west-1:764866452798:layer:libreoffice-gzip:1`           |
-| eu-central-1   | `arn:aws:lambda:eu-central-1:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:eu-central-1:764866452798:layer:libreoffice-gzip:1`     |
-| us-west-2      | `arn:aws:lambda:us-west-2:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:us-west-2:764866452798:layer:libreoffice-gzip:1`           |
-| us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:us-east-2:764866452798:layer:libreoffice-gzip:1`           |
-| ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:ap-southeast-2:764866452798:layer:libreoffice-gzip:1` |
-| eu-west-2      | `arn:aws:lambda:eu-west-2:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:eu-west-2:764866452798:layer:libreoffice-gzip:1`           |
-| eu-west-3      | `arn:aws:lambda:eu-west-3:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:eu-west-3:764866452798:layer:libreoffice-gzip:1`           |
-| ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:ap-southeast-1:764866452798:layer:libreoffice-gzip:1` |
-| ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:ap-south-1:764866452798:layer:libreoffice-gzip:1`         |
-| ca-central-1   | `arn:aws:lambda:ca-central-1:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:ca-central-1:764866452798:layer:libreoffice-gzip:1`     |
-| sa-east-1      | `arn:aws:lambda:sa-east-1:764866452798:layer:libreoffice-brotli:1` or <br> `arn:aws:lambda:sa-east-1:764866452798:layer:libreoffice-gzip:1`           |
-
-### LibreOffice 6.1.0.0.alpha0 (Amazon Linux 1)
-
-Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
-
-- nodejs8.10
-- python3.7
-- python3.6
-- python2.7
-- ruby2.5
-- java8
-- go1.x
-- dotnetcore2.1
-
-| AWS Region     | LibreOffice Version | Layer ARN                                                        |
-| -------------- | ------------------- | ---------------------------------------------------------------- |
-| us-east-1      | 6.1.0.0.alpha0      | `arn:aws:lambda:us-east-1:764866452798:layer:libreoffice:8`      |
-| eu-west-1      | 6.1.0.0.alpha0      | `arn:aws:lambda:eu-west-1:764866452798:layer:libreoffice:1`      |
-| eu-central-1   | 6.1.0.0.alpha0      | `arn:aws:lambda:eu-central-1:764866452798:layer:libreoffice:1`   |
-| us-west-2      | 6.1.0.0.alpha0      | `arn:aws:lambda:us-west-2:764866452798:layer:libreoffice:1`      |
-| us-east-2      | 6.1.0.0.alpha0      | `arn:aws:lambda:us-east-2:764866452798:layer:libreoffice:1`      |
-| ap-southeast-2 | 6.1.0.0.alpha0      | `arn:aws:lambda:ap-southeast-2:764866452798:layer:libreoffice:1` |
-| eu-west-2      | 6.1.0.0.alpha0      | `arn:aws:lambda:eu-west-2:764866452798:layer:libreoffice:1`      |
-| ap-southeast-1 | 6.1.0.0.alpha0      | `arn:aws:lambda:ap-southeast-1:764866452798:layer:libreoffice:1` |
-| ap-south-1     | 6.1.0.0.alpha0      | `arn:aws:lambda:ap-south-1:764866452798:layer:libreoffice:1`     |
+| ap-northeast-1 | `arn:aws:lambda:ap-northeast-1:691624214751:layer:libreoffice-brotli:2` or <br> `arn:aws:lambda:ap-northeast-1:691624214751:layer:libreoffice-gzip:1` |
 
 ## License
 
-MIT © [Shelf](https://shelf.io)
+MIT © [Shelf](https://shelf.io), [Kenja K.K.](https://kenja.com)
