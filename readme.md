@@ -4,6 +4,20 @@
 
 Based on the [serverless-libreoffice](https://github.com/vladgolubev/serverless-libreoffice) project.
 
+## Publishing as Kenja
+
+First make sure to configure your AWS CLI v2 and access credentials, then you can proceed to publish the Lambda layer.
+
+```
+source libreoffice-brotli.env
+sh publish.sh
+```
+
+```
+source libreoffice-gzip.env
+sh publish.sh
+```
+
 ## Getting Started
 
 Click on Layers and choose "Add a layer", and "Provide a layer version ARN" and enter the following ARN.
